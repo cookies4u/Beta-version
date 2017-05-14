@@ -13,8 +13,8 @@ export default class AutoCompleteExampleSimple extends Component {
     this.setState({
       dataSource: [
         value,
-        value + value,
-        value + value + value,
+        // value + value,
+        // value + value + value,
       ],
     });
   };

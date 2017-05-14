@@ -1,6 +1,6 @@
 import React from 'react';
 import AppBar from 'material-ui/AppBar';
-import LogIn from './LogIn';
+
 
 /**
  * A simple example of `AppBar` with an icon on the right.
