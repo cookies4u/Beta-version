@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "null",
+    "database": "geddit_test",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ou8t32vl08q8d01t",
+    "password": "pbwmaf3dowavbxnz",
+    "database": "ar49xzydcby49oyq",
+    "host": "hngomrlb3vfq3jcr.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}
