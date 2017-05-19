@@ -27,11 +27,11 @@ app.set("view engine", "handlebars");
 
 // Routes =============================================================
 // Import routes and give the server access to them.
-// var routes = require("./controllers/burgersController.js");
+// var routes = require("./controllers/gedditController.js");
 // app.use("/", routes);
 // app.listen(port);
 
-require("./controllers/burgersController.js")(app);
+require("./controllers/gedditController.js")(app);
 
 // Syncing our sequelize models and then starting our express app
 // db.sequelize.sync({ force: true }).then(function() {
