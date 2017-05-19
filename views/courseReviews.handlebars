@@ -1,0 +1,28 @@
+<h1>Geddit!</h1>
+
+<div class="container">
+
+
+  <div class="row">
+    <div class="col-sm-6">
+
+      <h2>Course Reviews</h2>
+
+      <ul>{{#Course}}
+        <ol>{{@index}} {{course_title}}
+        {{#Reviews}}
+            <li>Reivew title:{{review_title}}</li>
+        {{/Reviews}}
+        </ol>
+        {{/Course}}
+    </ul>
+
+    </div>
+
+    <div class="col-sm-6">
+
+    </div>
+  </div>
+
+</div>
+

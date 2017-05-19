@@ -1,0 +1,15 @@
+﻿everytime i recreate a table delete modules and npm init 
+
+commands
+npm init
+npm install —-save body-parser express express-handlebars method-override mysql sequelize
+
+
+http://stackoverflow.com/questions/25880539/join-across-multiple-junction-tables-with-sequelize
+
+user one --> course many
+each user can create many courses. Each course can have only one author
+course one --> review many
+each course has many reviews. Each review can have only one course 
+user one --> reviews many
+each user has many reviews. Each review can have only one author

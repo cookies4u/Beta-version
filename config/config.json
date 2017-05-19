@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "null",
+    "password": "cookies4u",
     "database": "geddit_test",
     "host": "localhost",
     "dialect": "mysql"

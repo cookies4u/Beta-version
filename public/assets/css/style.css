@@ -1,0 +1,31 @@
+img {
+	max-height: 200px;
+	min-height: 200px;
+	display: block;
+    margin: auto;
+    
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
